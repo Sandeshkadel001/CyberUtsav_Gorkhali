@@ -8,6 +8,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    color: white;
 }
 
 
@@ -77,7 +78,7 @@ body {
 }
 
 .option {
-    background: #ace5f1;
+    background: #000000;
     border: none;
     border-radius: 8px;
     padding: 10px 20px;
