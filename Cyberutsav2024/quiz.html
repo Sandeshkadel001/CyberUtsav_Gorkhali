@@ -1,0 +1,70 @@
+
+<html lang="en">
+<head>
+    
+    <title>Quiz Valley</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="ssc">
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <div class="intro">
+        <h1 style="color: rgb(34, 87, 235);">Welcome to the Quiz Valley!</h1>
+        <h3 style="color: rgb(0, 0, 0) ;">Think you’ve got what it takes to beat the clock? Challenge yourself in this fast-paced quiz where every second counts! You’ll face a series of interesting and thought-provoking questions, designed to test your general knowledge, memory, and problem-solving skills. Here’s how it works:
+            <br>
+            <br>
+
+                   1) You have 100 seconds to answer all the questions – don’t let the time slip away!
+            <br>
+                   2) Select the correct answer from the options provided. Choose wisely, as each choice brings you closer to victory.
+            <br>
+                    3) When time runs out, the game ends automatically, but you can always try again to beat your score!
+            <br>
+                    4) Ready to test your wits and race against time? Hit "Start" to begin, and good luck!</h3>
+        <button  style="--content: 'Start';"href="https://twitter.com/kamildyrek"><a href="quiz .html"><button >
+            <div class="left"></div>
+            ____________
+            <div class="right"></div>
+          </button>
+        </button>
+          <a target="_blank" href="https://twitter.com/kamildyrek"><svg style="width:2em;height:2em;position:fixed;top:1em;left:1em;opacity:.8;" viewBox="0 0 24 24"><path fill="#fff" d="M17.71,9.33C18.19,8.93 18.75,8.45 19,7.92C18.59,8.13 18.1,8.26 17.56,8.33C18.06,7.97 18.47,7.5 18.68,6.86C18.16,7.14 17.63,7.38 16.97,7.5C15.42,5.63 11.71,7.15 12.37,9.95C9.76,9.79 8.17,8.61 6.85,7.16C6.1,8.38 6.75,10.23 7.64,10.74C7.18,10.71 6.83,10.57 6.5,10.41C6.54,11.95 7.39,12.69 8.58,13.09C8.22,13.16 7.82,13.18 7.44,13.12C7.81,14.19 8.58,14.86 9.9,15C9,15.76 7.34,16.29 6,16.08C7.15,16.81 8.46,17.39 10.28,17.31C14.69,17.11 17.64,13.95 17.71,9.33M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2Z" /></svg></a></a>
+    </div>
+
+    <div class="quiz-container" style="display: none;">
+        <h1> Quiz Valley</h1>
+        <div class="timer">Time Remaining: <span id="time">100</span> seconds</div>
+        <div class="question-info">
+            <p>Question <span id="question-number">1</span> of <span id="total-questions"></span></p>
+        </div>
+        <div class="question-section">
+            <h2 class="question">Question text here</h2>
+            <div class="options">
+                <button class="option" data-option="0">Option 1</button>
+                <button class="option" data-option="1">Option 2</button>
+                <button class="option" data-option="2">Option 3</button>
+                <button class="option" data-option="3">Option 4</button>
+            </div>
+        </div>
+        <div class="navigation">
+            <button id="prev" class="nav-btn" disabled>Previous</button>
+            <button id="next" class="nav-btn" disabled>Next</button>
+            <button id="restart" class="nav-btn" style="display: none;">Restart</button>
+        </div>
+        <div class="result-section">
+            <h3>Congratulations! You finished the quiz!</h3>
+            <br>
+            <h3>🎉 Well Done! 🎉</h3>
+            <br>
+            <h4>You’ve completed all the questions in record time! Whether you answered every question correctly or learned something new along the way, you’ve proven your knowledge.</h4>
+            <h4>Your Score: <span id="score">0</span></h4>
+            <br>
+            <h4>If you enjoyed the quiz and want to challenge yourself again, click the button below to restart and try for a better score!</h4>
+            <br>
+            <h4>Good luck, and keep up the great work! 🌟</h4>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="scriptt.js"></script>
+</body>
+</html>
